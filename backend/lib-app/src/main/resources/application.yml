@@ -1,0 +1,10 @@
+spring:
+    data:
+        mongodb:
+            database: lib_app
+            host: localhost
+            port: 27017
+    
+server:
+    port: 9200
+
