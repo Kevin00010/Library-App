@@ -1,4 +1,4 @@
-package com.mongo.libapp.services;
+package com.mongo.libapp.security.services;
 
 import java.util.Collection;
 import java.util.List;

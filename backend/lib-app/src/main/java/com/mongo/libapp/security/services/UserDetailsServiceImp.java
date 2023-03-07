@@ -1,14 +1,16 @@
-package com.mongo.libapp.services;
+package com.mongo.libapp.security.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.mongo.libapp.models.User;
 import com.mongo.libapp.repositories.UserRepository;
 
+@Service
 public class UserDetailsServiceImp implements UserDetailsService {
 
     @Autowired
